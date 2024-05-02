@@ -1,0 +1,85 @@
+.gambar{
+    float: right;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 5%;
+}
+
+.judul{
+    font-size: 50px;
+    padding-left: 5%;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 2%;
+}
+
+.grafiktegangan{
+    text-align: left;
+    float: right;
+    margin-right: 5%;
+    width: 25%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-tegangan{
+    width: 15%; 
+    position: relative; 
+    left: 5%;
+}
+
+.card-arus{
+    width: 15%; 
+    position: relative; 
+    left: 5%;
+    padding-top: 10px;
+}
+
+.card-kemiringan{
+    width: 15%; 
+    position: relative; 
+    left: 5%;
+    padding-top: 10px;
+}
+
+.card-daya{
+    width: 15%; 
+    position: relative; 
+    left: 5%;
+    padding-top: 10px;
+}
+
+.card-header{
+    font-size: 15px;
+    font-weight: bold; 
+    background-color: blue; 
+    color: white;  
+    text-align: center;
+}
+
+.card-body-tegangan{
+    background-color: lightgray;  
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.card-body-arus{
+    background-color: lightgray;  
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.card-body-kemiringan{
+    background-color: lightgray;  
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.card-body-daya{
+    background-color: lightgray;  
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
