@@ -1,54 +1,82 @@
 .gambar{
     float: right;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     position: relative;
     right: 5%;
 }
 
 .judul{
-    font-size: 50px;
+    font-size: 60px;
     padding-left: 5%;
     font-weight: bold;
-    margin-top: 20px;
-    padding-bottom: 2%;
+    margin-top: 40px;
+    padding-bottom: 5%;
 }
 
 .grafiktegangan{
-    text-align: left;
-    float: right;
-    margin-right: 5%;
-    width: 25%;
+    text-align: center;
+    width: 40%;
     color: white;
     font-size: 15px;
     font-weight: bold;
 }
 
+.grafikarus{
+    text-align: center;
+    width: 40%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left : 15px;
+}
+
+.grafikkemiringan{
+    text-align: center;
+    width: 40%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.grafikdaya{
+    text-align: center;
+    width: 40%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left : 15px;
+}
+
+.container-fluid1{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.container-fluid2{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
 .card-tegangan{
-    width: 15%; 
-    position: relative; 
-    left: 5%;
+    width: 25%; 
 }
 
 .card-arus{
-    width: 15%; 
-    position: relative; 
-    left: 5%;
-    padding-top: 10px;
+    width: 25%;
+    padding-left: 15px;
 }
 
 .card-kemiringan{
-    width: 15%; 
-    position: relative; 
-    left: 5%;
-    padding-top: 10px;
+    width: 25%; 
+    padding-left: 15px;
 }
 
 .card-daya{
-    width: 15%; 
-    position: relative; 
-    left: 5%;
-    padding-top: 10px;
+    width: 25%;
+    padding-left: 15px;
 }
 
 .card-header{

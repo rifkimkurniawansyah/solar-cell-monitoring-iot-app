@@ -1,160 +1,20 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags 
+  <head> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monitoring Sel Surya</title>
 
-      <!-- Bootstrap CSS -->
       <link rel = "stylesheet" type = "text/css" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <title>Monitoring Sel Surya</title>
+    
+      <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
       <script type = "text/javascript" src = "assets/js/jquery-3.4.0.min.js"></script>
       <script type = "text/javascript" src = "assets/js/mdb.min.js"></script>
-      <script type = "text/javascript" src = "jquery-latest.js"></script>
       <script type = "text/javascript" src = "assets/css/bootstrap.min.js"></script>
+      <script type = "text/javascript" src = "konekdatabase.js"></script>
       <!-- load otomatis database ke website/ realtime -->
 
-
-      <!-- css -->
-      <style type = "text/css">
-                .gambar{
-                    float: right;
-                    width: 130px;
-                    height: 130px;
-                    position: relative;
-                    right: 5%;
-                }
-
-                .judul{
-                    font-size: 60px;
-                    padding-left: 5%;
-                    font-weight: bold;
-                    margin-top: 40px;
-                    padding-bottom: 5%;
-                }
-
-                .grafiktegangan{
-                    text-align: center;
-                    width: 40%;
-                    color: white;
-                    font-size: 15px;
-                    font-weight: bold;
-                }
-
-                .grafikarus{
-                    text-align: center;
-                    width: 40%;
-                    color: white;
-                    font-size: 15px;
-                    font-weight: bold;
-                    padding-left : 15px;
-                }
-
-                .grafikkemiringan{
-                    text-align: center;
-                    width: 40%;
-                    color: white;
-                    font-size: 15px;
-                    font-weight: bold;
-                }
-
-                .grafikdaya{
-                    text-align: center;
-                    width: 40%;
-                    color: white;
-                    font-size: 15px;
-                    font-weight: bold;
-                    padding-left : 15px;
-                }
-                
-                .container-fluid1{
-                    display: flex;
-                    justify-content: center;
-                    padding-top: 35px;
-                }
-
-                .container-fluid2{
-                    display: flex;
-                    justify-content: center;
-                    padding-top: 15px;
-                }
-
-                .card-tegangan{
-                    width: 25%; 
-                }
-
-                .card-arus{
-                    width: 25%;
-                    padding-left: 15px;
-                }
-
-                .card-kemiringan{
-                    width: 25%; 
-                    padding-left: 15px;
-                }
-
-                .card-daya{
-                    width: 25%;
-                    padding-left: 15px;
-                }
-
-                .card-header{
-                    font-size: 15px;
-                    font-weight: bold; 
-                    background-color: blue; 
-                    color: white;  
-                    text-align: center;
-                }
-
-                .card-body-tegangan{
-                    background-color: lightgray;  
-                    text-align: center;
-                    color: black;
-                    font-size: 40px;
-                }
-                .card-body-arus{
-                    background-color: lightgray;  
-                    text-align: center;
-                    color: black;
-                    font-size: 40px;
-                }
-                .card-body-kemiringan{
-                    background-color: lightgray;  
-                    text-align: center;
-                    color: black;
-                    font-size: 40px;
-                }
-                .card-body-daya{
-                    background-color: lightgray;  
-                    text-align: center;
-                    color: black;
-                    font-size: 40px;
-                }
-                </style> 
-
-      <!-- Koneksi database -->
-      <script type = "text/javascript" >
-                // kirim nilai data ke website secara realtime
-                $(document).ready(function() {
-
-                    setInterval(function() {
-                        $("#cektegangan").load('cektegangan.php');
-                        $("#cekarus").load('cekarus.php');
-                        $("#cekkemiringan").load('cekkemiringan.php');
-                        $("#cekdaya").load('cekdaya.php');
-
-                    }, 2000);
-                } );
-                //akhir perintah load data
-
-                //Memanggil Data Grafik
-                var refreshid = setInterval(function() {
-                        $("#responsgrafiktegangan").load('grafiktegangan.php');
-                        $("#responsgrafikarus").load('grafikarus.php');
-                        $("#responsgrafikkemiringan").load('grafikkemiringan.php');
-                        $("#responsgrafikdaya").load('grafikdaya.php');
-                }, 2000);
-        </script>
     
 </head>
 <body>
@@ -227,11 +87,5 @@
         
      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
 </body>
 </html>

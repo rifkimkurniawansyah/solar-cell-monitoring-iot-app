@@ -15,4 +15,6 @@
       var refreshid = setInterval(function() {
             $("#responsgrafiktegangan").load('grafiktegangan.php');
             $("#responsgrafikarus").load('grafikarus.php');
+            $("#responsgrafikkemiringan").load('grafikkemiringan.php');
+            $("#responsgrafikdaya").load('grafikdaya.php');
       }, 1000);

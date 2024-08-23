@@ -1,0 +1,1 @@
+![Logo](/assets/img/landing-page.png)
